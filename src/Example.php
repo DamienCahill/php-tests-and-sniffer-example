@@ -4,7 +4,7 @@ namespace Example;
 
 class Example
 {
-    public static function SayHello($name)
+    public static function sayHello($name)
     {
         return "Hello, $name";
     }

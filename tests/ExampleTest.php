@@ -6,6 +6,6 @@ use Example\Example;
 class HelloTest extends TestCase {
 
      public function testSayHello() {
-        $this->assertSame( Example::SayHello("world"), "Hello, world");
+        $this->assertSame( Example::sayHello("world"), "Hello, world");
     }
 }
