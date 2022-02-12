@@ -4,6 +4,7 @@
     <arg name="tab-width" value="4"/>
     <file>.</file>
     <exclude-pattern>*/vendor/*</exclude-pattern>
+    <exclude-pattern>*/tests/*</exclude-pattern>
     <rule ref="PSR12"/>
     <rule ref="Generic.Files.LineLength">
         <properties>
