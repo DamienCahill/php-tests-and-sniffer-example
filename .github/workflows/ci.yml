@@ -11,7 +11,5 @@ jobs:
     - uses: php-actions/composer@v5 # or alternative dependency management
     - name: run tests
       run: composer test
-    - name: change owner of phpcs
-      run: sudo chmod 777 ./vendor/bin/phpcs
     - name: sniff
       run: composer sniff
